@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/aefe095f13.js" crossorigin="anonymous"></script>
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Mustafa Özbatman - Kişisel web sitesi</title>
+</head>
+<body>
+    
+    <div id="particles-js" style="position: relative;">
+        <div class="absolute w-full h-screen arkaplan">
+            <div class="fixed top-0 h-20 nav w-full">
+                <div class="w-4/5 h-full m-auto">
+                    <img class="h-full p-4 float-left" src="assets/image/mozbatman-logo.png" alt="">
+                    <h2 class="float-right mt-8 lg:mt-5 text-gray-300 text-sm sm:text-sm md:text-xl lg:text-2xl"><a href="https://medium.com/@mustafaozbatman6"> Blogs </a></h2>
+                </div>
+            </div>
+            <div class="relative w-4/5 m-auto text-center yazi">
+                <h1 class="text-3xl sm:text-4xl md:text5xl lg:text-6xl xl:text-6xl text-gray-300">Mustafa Özbatman.</h1>
+                <div class="text-sm sm:text-sm md:text-xl lg:text-2xl text-gray-500 mt-10 mb-5">
+                    Hello! My name is Mustafa Özbatman. I am a 3rd year student of computer engineering at Konya Technical University. I work as a freelancer. </div>
+                <div class="text-sm sm:text-md md:text-xl lg:text-2xl text-gray-500 mb-12"> I'm a full-stack web developer and data scientist. </div>
+                <button class="bg-gray-200 hover:bg-gray-600 text-gray-700 hover:text-white font-bold py-2 px-4 rounded inline-flex items-center">
+                    <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
+                    <p class="text-xs sm:text-sm md:text-xl lg:text-xl xl:text-xl">Download CV</p>
+
+                </button>
+                <div class="social text-gray-500 text-2xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-5xl mt-10">
+                    <ul>
+                        <li class="inline-block"> <a href="https://github.com/mozbatman"> <i class="fab fa-github"></i> </a>  </li>
+                        <li class="inline-block ml-5 lg:ml-10"> <a href="https://tr.linkedin.com/in/mustafa-ozbatman-72016a165"> <i class="fab fa-linkedin"></i> </a> </li>
+                        <li class="inline-block ml-5 lg:ml-10"> <a href="https://www.instagram.com/mozbatman/"> <i class="fab fa-instagram"></i> </a>  </li>
+                        <li class="inline-block ml-5 lg:ml-10"> <a href="mailto:info@mustafaozbatman.com"> <i class="fa fa-envelope"></i> </a> </li>
+                        <li class="inline-block ml-5 lg:ml-10"> <a href="https://medium.com/@mustafaozbatman6"> <i class="fab fa-medium"></i> </a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+
+    <script>
+        $(window).on("load",function(){
+          $(".loader-wrapper").fadeOut("slow");
+        });
+    </script>
+
+    <script text="text/javascript" src="assets/js/particles.js"></script>
+    <script text="text/javascript" src="assets/js/app.js"></script>
+</body>
+</html>
