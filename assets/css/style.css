@@ -18,6 +18,11 @@ body{
 .yazi{
     top: 25%;
 }
+@media only screen and (max-width: 370px) {
+ .yazi{
+   top: 20%;
+ }
+}
 
 .loader-wrapper {
     width: 100%;
